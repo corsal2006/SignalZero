@@ -36,7 +36,7 @@ There is a known status limitation: the orchestrator marks `RECEIVED_BY_SERVER` 
 
 ## Grevix challenge evolution
 
-The first challenge is represented by local SOS capture, templates, contacts, location, and nearby transport. The second adds resilience concepts: persistent queues, peer health, forwarding, and a virtual-node disconnection demonstration.
+Following the supplied challenge numbering, Challenge 1 is the emailed temporary-relay disconnection card: at least 20% of participating phones disconnected for 30 seconds while preserving incident handling. The implementation includes persistent queues, peer health, forwarding attempts, and a virtual-node demonstration. Challenge 2 is the LinkedIn feedback on hands-free SOS and smarter emergency mesh behavior; shake/voice detectors and local severity rules address portions of that feedback. Reliable background triggering and severity-prioritized queue scheduling are not verified. The README maps each request to its implementation and limitations.
 
 `GrevixResilienceSimulator` has ten predefined virtual nodes and marks two disconnected for thirty logical seconds. It waits through the scenario and reconnects them. Its latency percentiles, packet delivery counts, route changes, and PASS status are hard-coded report fields; duplicate suppression is an incremented counter. Recovery time measures a coroutine delay. It does not send simulated packets through the injected mesh router. This is a UI demonstration, not a validated network benchmark.
 

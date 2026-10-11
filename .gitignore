@@ -10,5 +10,6 @@ keystore.properties
 .env.*
 release/*.apk
 release/media-review.jpg
+release/video-review.jpg
 release/publish-github.ps1
 docs/submission/
