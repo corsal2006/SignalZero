@@ -10,7 +10,7 @@ SignalZero is a native Android emergency communication prototype for the Grevix 
 
 **[▶ Watch / download the SignalZero demo (1 minute 39 seconds)](https://github.com/corsal2006/SignalZero/raw/refs/heads/main/docs/media/video/signalzero-demo.mp4)**
 
-[![Open the SignalZero demo video](docs/media/screenshots/screen-02.jpg)](https://github.com/corsal2006/SignalZero/raw/refs/heads/main/docs/media/video/signalzero-demo.mp4)
+<a href="https://github.com/corsal2006/SignalZero/raw/refs/heads/main/docs/media/video/signalzero-demo.mp4"><img src="docs/media/screenshots/screen-02.jpg" width="230" alt="Open the SignalZero demo video"></a>
 
 The preview links to the supplied MP4. You can also [open its GitHub file page](https://github.com/corsal2006/SignalZero/blob/main/docs/media/video/signalzero-demo.mp4). The recording covers sign-in, SOS, the virtual-node challenge screen, maps, contacts, settings, help, peer chat, and incident details. Recorded UI states alone do not establish end-to-end delivery.
 
