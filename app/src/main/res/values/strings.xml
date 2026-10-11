@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SignalZero</string>
+    <string name="mesh_notification_title">SIGNALZERO Emergency Mesh Active</string>
+    <string name="mesh_notification_text">Relaying offline emergency alerts to nearby rescue nodes</string>
+</resources>

@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Gradient outer aura -->
+    <path
+        android:fillColor="#131722"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:pathData="M60,18 L94,33 C94,68 60,98 60,98 C60,98 26,68 26,33 Z"/>
+
+    <!-- Signal Radiance Waves -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3.0"
+        android:strokeLineCap="round"
+        android:pathData="M42,50 A22,22 0 0,1 78,50"/>
+
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,58 A14,14 0 0,1 72,58"/>
+
+    <!-- Emergency Red Center Node -->
+    <path
+        android:fillColor="#FF3B30"
+        android:pathData="M60,68m-7,0a7,7 0 1,0 14,0a7,7 0 1,0 -14,0"/>
+
+    <!-- Digital Zero Glyph -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M55,73 L65,63"/>
+</vector>
